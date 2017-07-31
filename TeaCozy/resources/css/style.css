@@ -1,0 +1,147 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: SeaShell;
+  font-size: 22px;
+  opactiy: 0.9;
+  text-align: center;
+}
+
+li{
+  padding: 10px 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0
+}
+
+header{
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid SeaShell;
+}
+
+div.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+nav li{
+  display: inline;
+  padding-left: 20px;
+}
+
+nav a{
+  color: SeaShell;
+}
+
+div.welcome-image{
+  background-image: url(../images/welcome-image.jpg);
+  height: 700px;
+  flex-basis: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#welcome-message{
+  background-color: black;
+  width: 100%;
+}
+
+div.tea-month{
+    flex-basis: 1000px;
+    margin: 0 auto;
+    flex-flow: wrap;
+}
+
+div.store-items{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+div.store-item>h3{
+  padding: 0;
+  margin: 0;
+}
+
+.store-item>img{
+  height: 200px;
+  width: 300px;
+  margin: 10px 5px;
+}
+
+div.location{
+  background-image: url("../images/locations-background.jpg");
+  height: 500px;
+  flex-basis: 1200px;
+  margin: 40px auto;
+  flex-direction: column;
+  flex-flow: wrap;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#location-header{
+  width: 100%;
+}
+
+div.location-box{
+  background-color: black;
+  flex-basis: 300px;
+  margin: 15px 40px;
+  padding: 5px 10px;
+}
+
+div.location-boxes{
+  display: inline-flex;
+  opacity: 1;
+  overflow: auto;
+}
+
+#contact{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact h2{
+  margin: 30px auto;
+}
+#contact h5{
+  margin: 20px auto;
+}
+
+#copyright{
+  display:flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+}
